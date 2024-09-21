@@ -9,43 +9,47 @@
     <title>Poem Generator</title>
   </head>
 
-  <div class="container">
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <div class="form-container">
-        <form id="poem-gene">
-          <input
-            type="text"
-            placeholder="Enter the topic to the Brazilian poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-word"
-          />
-          <input type="submit" class="submitbutton" />
-        </form>
-        <div class="hint">i.e: Flower, Love or Cheese</div>
-      </div>
-      <div class="poem" id="poem"></div>
-    </main>
-  </div>
+      <main>
+        <div class="form-container">
+          <form id="poem-gene">
+            <input
+              type="text"
+              placeholder="Enter the topic to the Brazilian poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-word"
+            />
+            <input type="submit" class="submitbutton" />
+          </form>
+          <div class="hint">i.e: flower, love or rain...</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
+      </main>
+    </div>
 
-  <footer>
-    This AI project was coded with 🖤 by
-    <a href="https://github.com/conectomarley" target="_blank">Luana Marley</a>
-    and is open source on
-    <a
-      href="https://github.com/conectomarley/addai-poems-generator.git"
-      target="_blank"
-    >
-      GitHub</a
-    >
-    and is hosted on <a href="https://brpoem-generator.netlify.app">Netlify.</a>
-  </footer>
-  <script src="index.js"></script>
-  <body></body>
+    <footer>
+      This AI project was coded with 🖤 by
+      <a href="https://github.com/conectomarley" target="_blank"
+        >Luana Marley</a
+      >
+      and is open source on
+      <a
+        href="https://github.com/conectomarley/addai-poems-generator.git"
+        target="_blank"
+      >
+        GitHub</a
+      >
+      and is hosted on
+      <a href="https://brpoem-generator.netlify.app">Netlify.</a>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
