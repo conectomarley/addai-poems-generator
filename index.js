@@ -12,9 +12,9 @@ function genepoem(event) {
 
   let userwordInput = document.querySelector("#user-word");
   let apiKey = "3t4aaf46b1o5b1534f3e944eb00eb10d";
-  let prompt = `User instructions: Generate a Brazilian poem about ${userwordInput.value}`;
+  let prompt = `Summarize a famous Brazilian poem that contains the word ${userwordInput.value} in exactly 6 lines.`;
   let context =
-    "You are a romantic Poem expert and love to write short poems. You mission is to generate a 4 line poem and separate each line with a <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem with 'Marley AI' inside a <strong> element at the end of the poem and NOT at the beginning";
+    "You are an expert on Brazilian poetry. Your task is to find a well-known Brazilian poem that contains the word ${userwordInput.value}, and provide a 6-line summary of that poem. Each new sentence that starts with a capital letter should be on a new line. Use <br /> to separate the lines. Be concise, poetic, and ensure each line is short. Do not include a title to the poem. Sign the poem with 'Marley AI' inside a <strong> element at the end of the poem and NOT at the beginning";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log("genepoem");

@@ -3,8 +3,20 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: salmon;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
 h1 {
-  font-family: sans-serif;
   font-weight: 800;
   font-size: 20px;
   text-align: center;
@@ -12,37 +24,28 @@ h1 {
   color: gray;
 }
 
-a {
-  color: salmon;
-}
-
-header {
+.form-container {
+  background-color: white;
   margin-bottom: 30px;
-}
-
-.container {
-  margin: 120px auto;
-  max-width: 600px;
-  padding-bottom: 30px;
-}
-
-.poem {
-  background-color: #ecf0f1;
-  font-size: 16px;
-  padding: 20px;
-  border-left: 3px solid salmon;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
   border-radius: 10px;
-  line-height: 2;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
 }
 
 form {
   background-color: #ecf0f1;
-  padding: 30px;
+    padding: 30px;
   display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 
 .instructions {
@@ -62,6 +65,16 @@ form {
   width: 150px;
   border-radius: 50px;
   padding: 14px 20px;
+}
+
+.poem {
+  background-color: #ecf0f1;
+  font-size: 16px;
+  padding: 20px;
+  border-left: 3px solid salmon;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 10px;
+  line-height: 2;
 }
 
 footer {

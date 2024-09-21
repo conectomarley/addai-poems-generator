@@ -15,20 +15,21 @@
     </header>
 
     <main>
-      <form id="poem-gene">
-        <input
-          
-          type="text"
-          placeholder="Enter the topic to the Brazilian poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-          id="user-word"
-        />
-        <input type="submit" class="submitbutton" />
-        <p></p>
-      </form>
+      <div class="form-container">
+        <form id="poem-gene">
+          <input
+            type="text"
+            placeholder="Enter the topic to the Brazilian poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+            id="user-word"
+          />
+          <input type="submit" class="submitbutton" />
+        </form>
+        <div class="hint">i.e: Flower, Love or Cheese</div>
+      </div>
       <div class="poem" id="poem"></div>
     </main>
   </div>
