@@ -9,6 +9,12 @@ h1 {
   font-weight: normal;
 }
 
+.poem2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .poem {
   background: white;
   max-width: 600px;
@@ -16,4 +22,12 @@ h1 {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: grey;
+  font-weight: normal;
+  text-align: center;
 }
