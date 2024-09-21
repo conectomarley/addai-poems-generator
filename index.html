@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Poem Generator</title>
   </head>
 
-  <div class="poem">
+  <div class="container">
     <header>
       <h1>AI Poem Generator</h1>
     </header>
@@ -15,16 +16,17 @@
     <main>
       <form>
         <input
+          class="instructions"
           type="text"
           placeholder="Enter the topic to the Brazilian poem"
           autofocus
           required
           autocomplete="off"
         />
-        <input type="submit" />
+        <input type="submit" class="submitbutton" />
         <p></p>
       </form>
-      <div class="poem2">
+      <div class="poem">
         Place to show the poem
         <br />
         Another place to show the poem
@@ -34,9 +36,7 @@
 
   <footer>
     This AI project was coded with 🖤 by
-    <a href="https://github.com/conectomarley" target="_blank"
-      ><strong>Luana Marley</strong></a
-    >
+    <a href="https://github.com/conectomarley" target="_blank">Luana Marley</a>
     and is open source on
     <a
       href="https://github.com/conectomarley/addai-poems-generator.git"
